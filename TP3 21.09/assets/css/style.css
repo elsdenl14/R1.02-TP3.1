@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans:wght@100..900&display=swap');
+/*Importe une police sur Google*/
+
+body {
+    font-size: 30px; /*On change la taille de police*/
+    background-color: aqua;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive; /*Définit la police*/
+    font-size: 5rem; /*Taille de la police a 5*30px*/
+    text-transform: capitalize; /*Met les initiales en majuscule*/ 
+    text-align: center; /*Aligne le texte au centre*/
+}
+
+h2, p {
+    font-family: 'Noto Sans', sans-serif; /*Définit la police*/
+}
+
+h2 {
+    font-size: 2rem; /*Taille de la police a 2*30px*/
+}
+
+p {
+    font-size: 1rem; /*Taille de la police a 1*30px*/ 
+}
+
+.images{
+    width: 200px; /*Définit la longueur*/
+    height: 200px; /*Définit la largeur*/
+    color: white; /*Couleur du texte*/
+}
+
+nav span{ /*On cible les span dans la nav*/
+    padding: 0.5em; /*remplissage de 0.5em*/
+    margin: 5px 20px; /*Marge de 5px en haut et en bas et 20px à droite et à gauche (ordre aiguilles d'une montre)*/
+    border: 1px solid black; /*Bordure, épaisseur, style, couleur*/
+    background-color: #ddd;
+}
+
+nav{
+    background-color: #0c3742;
+    background-color: hsl(0.53, 0.69, 0.15);
+}
+
+.images-container{
+    border: 2px solid red;
+}
+
+img{
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
